@@ -1,10 +1,11 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Profile from './components/Profile';
+import PackingList from '/components/PackingList';
+import '/styles/katsuko.css';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Profile />
+    <PackingList />
   </React.StrictMode>
 );
